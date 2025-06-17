@@ -1,0 +1,4 @@
+body { display:flex; justify-content:center; align-items:center; height:100vh; background:#eef; }
+#eyes { display:flex; gap:60px; }
+.eye { width:120px; height:120px; border:5px solid #333; border-radius:50%; position:relative; background:#fff; }
+.pupil { width:40px; height:40px; background:#000; border-radius:50%; position:absolute; top:40px; left:40px; transition:0.1s; }

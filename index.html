@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Robot Eyes Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+</head>
+<body>
+  <video id="video" playsinline style="display:none;"></video>
+  <div id="eyes">
+    <div class="eye"><div class="pupil" id="p1"></div></div>
+    <div class="eye"><div class="pupil" id="p2"></div></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
